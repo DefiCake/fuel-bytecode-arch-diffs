@@ -1,0 +1,20 @@
+services:
+  rs_aarch:
+    build: 
+      dockerfile: rs.Dockerfile
+
+  rs_x86:
+    platform: linux/amd64
+    build:
+      dockerfile: rs.Dockerfile
+
+  ts_aarch:
+    build: 
+      dockerfile: ts.Dockerfile
+
+  ts_x86:
+    platform: linux/amd64
+    build:
+      dockerfile: ts.Dockerfile
+
+  

@@ -1,0 +1,11 @@
+{
+  "name": "test-x86-aarch-diffs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DefiCake/fuels-rs-65-configurables-issue.git",
+  "author": "DefiCake <rarore92@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fuels": "0.93.0"
+  }
+}
